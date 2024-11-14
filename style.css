@@ -5,7 +5,7 @@ body {
 header {
     background-color: #000;
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
 }
 
@@ -16,4 +16,30 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 2em;
+}
+
+#informatie-frontpage {
+    background: linear-gradient(90deg, #de6155 0%, rgb(139, 102, 0),#a07216c1 100%);
+    width: 60%;
+    height: 35%;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    z-index: 0;
+    opacity: 0.8;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1%;
+}
+
+#informatie-frontpage #title {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #a61100;
+    color: black;
+    font-size: 1.3em;
 }
