@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(90deg, #a61100 0%, rgb(139, 102, 0),#342300 100%);
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
