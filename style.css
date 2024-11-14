@@ -1,30 +1,41 @@
 body {
-    background: linear-gradient(90deg, #a61100 0%, rgb(139, 102, 0),#342300 100%);
+    background: linear-gradient(90deg, #a61100 0%, rgb(139, 102, 0), #342300 100%);
 }
 
 header {
-    background-color: #052a6f;
-    color: #fff;
-    padding: 2em 0;
+    color: white;
+    padding: 1%;
     text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
+/* dit is de tekst/links dat op de header */
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/* dit is de achtergrond van de frontpage */
 #achtergrond-img {
     width: 100%;
-    height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 2em;
 }
 
+/* hieronder is het tekstvak dat op de frontpage staat */
 #informatie-frontpage {
-    background: linear-gradient(90deg, #de6155 0%, rgb(139, 102, 0),#a07216c1 100%);
+    background: linear-gradient(90deg, #de6155 0%, rgb(139, 102, 0), #a07216c1 100%);
     width: 60%;
     height: 35%;
     position: absolute;
-    top: 90%;
-    left: 10%;
+    top: 80%;
+    left: 7%;
     z-index: 0;
     opacity: 0.8;
     color: white;
@@ -43,3 +54,48 @@ header {
     color: black;
     font-size: 1.3em;
 }
+
+/* het link blokje */
+#linkblokje {
+    background-color: #2043ce;
+    width: 20%;
+    height: 35%;
+    position: absolute;
+    top: 80%;
+    right: 7%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+#linkblokje a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+
+/* de titel van het link blokje */
+#linkblokje #title {
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    background-color: #160066;
+    color: rgb(145, 145, 145);
+    font-size: 15px;
+    width: 100%;
+    height: 30%;
+    border-radius: 15px;
+}
+
+/*geeft wat ruimte tussen de links*/
+#linkblokje ul li {
+    margin: 10px 0;
+}
+
