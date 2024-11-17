@@ -29,25 +29,13 @@ header a {
 
 /* dit is de achtergrond van de frontpage */
 #achtergrond-img {
-    width: 70%;
+    width: 75%;
     height: 80%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
     top: 10%;
-}
-
-#achtergrond-img2 {
-    width: 100%;
-    height: 100%;
-}
-
-#tweede-pagina {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 95%;
 }
 
 #zwart-vlak-rechts {
@@ -74,4 +62,40 @@ header a {
 .img-voorbeeld {
     width: 100%;
     height: 40%;
+}
+
+
+
+
+
+/*------------------------------------------------------------------*/
+/* hier staat alles van de 2e pagina */
+
+
+/* dit is de achtergrond van de 2e pagina */
+
+
+/*hier zeg ik hoe groot de pagina is en waar die staat*/
+#tweede-pagina {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 95%;
+}
+
+/* hier staat de achtergrond die even groot moet zijn als de tweede pagina */
+#achtergrond-img2 {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* dit is de titel die op de 2e pagina staat */
+#tweede-pagina h1 {
+    color: white;
+    font-style: italic;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 3.5em;
 }
