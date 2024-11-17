@@ -1,16 +1,23 @@
 body {
     background: linear-gradient(90deg, #a61100 0%, rgb(139, 102, 0), #342300 100%);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 header {
     color: white;
-    padding: 1%;
     text-align: center;
     font-size: 1.5em;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    background-color: rgb(17, 17, 17);
     width: 100%;
+    position: relative;
 }
 
 /* dit is de tekst/links dat op de header */
@@ -22,80 +29,49 @@ header a {
 
 /* dit is de achtergrond van de frontpage */
 #achtergrond-img {
-    width: 100%;
+    width: 70%;
+    height: 80%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-/* hieronder is het tekstvak dat op de frontpage staat */
-#informatie-frontpage {
-    background: linear-gradient(90deg, #de6155 0%, rgb(139, 102, 0), #a07216c1 100%);
-    width: 60%;
-    height: 35%;
     position: absolute;
-    top: 80%;
-    left: 7%;
-    z-index: 0;
-    opacity: 0.8;
+    top: 10%;
+}
+
+#achtergrond-img2 {
+    width: 100%;
+    height: 100%;
+}
+
+#tweede-pagina {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 95%;
+}
+
+#zwart-vlak-rechts {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    background-color: black;
     color: white;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 1.5em;
-    padding: 1%;
-}
-
-#informatie-frontpage #title {
-    font-size: 2em;
-    text-align: center;
-    padding-top: 0;
-    margin-top: 0;
-    background-color: #a61100;
-    color: black;
-    font-size: 1.3em;
-}
-
-/* het link blokje */
-#linkblokje {
-    background-color: #2043ce;
     width: 20%;
-    height: 35%;
-    position: absolute;
-    top: 80%;
-    right: 7%;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 1.5em;
-    border-radius: 15px;
-    color: white;
+    height: 80%;
+    padding: 1%; /* Add padding */
+    box-sizing: border-box; /*dit zorgt ervoor dat er padding is zonder dat de grootte verandert*/
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2%;
+    justify-content: start;
 }
 
-#linkblokje a {
-    color: white;
-    text-decoration: none;
-    border-bottom: 2px solid white;
-}
-
-/* de titel van het link blokje */
-#linkblokje #title {
-    position: absolute;
-    top: 0%;
-    text-align: center;
-    background-color: #160066;
-    color: rgb(145, 145, 145);
-    font-size: 15px;
+.img-title {
+    height: 15%;
     width: 100%;
-    height: 30%;
-    border-radius: 15px;
 }
 
-/*geeft wat ruimte tussen de links*/
-#linkblokje ul li {
-    margin: 10px 0;
+.img-voorbeeld {
+    width: 100%;
+    height: 40%;
 }
-
