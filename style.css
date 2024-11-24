@@ -24,7 +24,7 @@ header a {
     color: white;
 }
 
-.container {
+.container-1 {
     height: 700px;
     position: relative; /* ik weet niet waarom. maar als ik relative invoer, dan werkt het wel (dat de grootte van de afbeelding verandert)*/
     background-color: aqua;
