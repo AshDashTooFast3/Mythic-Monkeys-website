@@ -1,0 +1,105 @@
+body {
+  background-color: rgb(17, 17, 17) !important;
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(17, 17, 17);
+  width: 100%;
+  border-bottom: 1px solid rgb(180, 0, 60);
+  margin-bottom: 50px;
+}
+
+
+header a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.container-img {
+  position: absolute;
+  left: 15%;
+  height: 700px;
+  width: 70%;
+  position: relative; /* ik weet niet waarom. maar als ik relative invoer, dan werkt het wel (dat de grootte van de afbeelding verandert)*/
+  background-color: aqua;
+  padding: 0%;
+  background-image: url('https://gaming-cdn.com/images/products/7678/orig/black-myth-wukong-pc-spel-steam-europe-us-canada-cover.jpg?v=1728309382');
+  background-position: center;
+  background-size: cover;
+}
+
+#informatie-container-frontpage-plaatje {
+  background: linear-gradient(to bottom, rgb(104, 104, 104), rgb(5, 5, 5));
+  opacity: 0.8;
+  width: 100%;
+  height: 30%;
+  padding: 3%;
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /*hieronder staat de font die de text moet hebben*/
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: oblique;
+  color: white;
+}
+
+#release-date-learnmore {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  left: 0%;
+  top: 60%;
+  display: flex;
+  align-items: center;
+  /*hieronder staat de font die de text moet hebben*/
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: oblique;
+  color: rgb(206, 206, 206);
+
+}
+
+.btn {
+  background-color: rgb(180, 0, 60) !important;
+  border: none !important;
+}
+
+
+.container-info{
+  position: relative;
+  left: 15%;
+  height: 500px;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.container-trailer {
+  position: relative;
+  left: 15%;
+  width: 70%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+#trailer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
