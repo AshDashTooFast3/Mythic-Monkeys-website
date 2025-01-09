@@ -1,33 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Black Myth: Wukong</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home-page</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- hier staat de header, achtergrond en informatie box -->
-    <header>
-          <a class="active" href="https://store.steampowered.com/app/2358720/Black_Myth_Wukong/?l=English"> <span style="color: red;">BUY</span> Black Myth: Wukong</a>
-          <a href="#trending-games">Learn more</a>
-          <a href="#contact">Contact</a>
-    </header>
-    <div>
-        <img id="achtergrond-img"
-                src="https://www.stealthgaming.net/wp-content/uploads/2024/08/black-myth-wukong-featured-image.jpg.webp" alt="black-myth-wukong-featured-image">
-            <div id="informatie-box">
-                <h1>Black Myth: Wukong</h1>
-                <p>Buy Black Myth: Wukong for €59,99 on steam!</p>
-                <a href="https://store.steampowered.com/app/2358720/Black_Myth_Wukong/?l=English">Buy Here</a>
-            </div>
+  <header>
+    <a class="active" href="#buy"> <span style="color: rgb(180, 0, 60);">BUY</span> Black Myth: Wukong</a>
+    <a href="#reviews">reviews</a>
+    <a href="#trending-games">Trending Games</a>
+    <a href="#learn-more">Learn More</a>
+    <a href="#FAQ">FAQ</a>
+  </header>
+
+
+  <div class="container-img">
+    <div id="informatie-container-frontpage-plaatje">
+      <h1>black Myth: Wukong</h1> <br>
+      <p>Experience the epic journey of the Monkey King in an action-packed adventure like no other.</p>
     </div>
-    <div id="zwart-vlak-rechts">
-            <img class="img-title" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7uDfPUW66tZ1cWc2IXvJaqxhcGiG478g_A&s" alt="The text FIRE">
-            <img class="img-voorbeeld" src="https://platform.polygon.com/wp-content/uploads/sites/2/2024/08/black-myth-wukong-review-.jpg?quality=90&strip=all&crop=0,3.4613147178592,100,93.077370564282" alt="wukong vuur gevecht">
-            <img class="img-title" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b600db21968191.5630ba73b37ab.png" alt="The text Titans">
-            <img class="img-voorbeeld" src="https://cdn.mos.cms.futurecdn.net/KMb2YxzrKbjr4HAGmpHsAd.jpg" alt="wukong vuur gevecht">
+    <div id="release-date-learnmore">
+      <p>Released on: August 20, 2024</p>
+      <a class="btn btn-primary" href="https://example.com" style="margin-left: 20px;">Learn More</a>
     </div>
+  </div>
+
+  <div class="container-info" style="margin-top: 2%;">
+    <div class="float-md-start" style="z-index: 3;">
+      <h4 style="font-weight: bolder; color: white;">Black Myth: Wukong, the new action RPG from Chinese developer Game
+        Science, <br>
+        released on: August 20, 2024. <br>
+        In the game, players follow Sun Wukong in a story <br> that originates from the book Journey to the West. <br>
+        Many other media have preceded Black Myth, <br>
+        but the game has a unique approach that immediately captures interest.</h4>
+      <br>
+      <span style="color: white;">In Black Myth: Wukong, players will encounter a richly detailed world filled with
+        mythical creatures, <br>
+        challenging enemies, and intricate landscapes. <br>
+        The game combines fast-paced combat with deep storytelling, <br>
+        allowing players to explore the lore and legends of ancient China. <br>
+        As Sun Wukong, players can utilize a variety of magical abilities and transformations <br>
+        to overcome obstacles and defeat powerful foes. <br>
+        The game promises a visually stunning experience with cutting-edge graphics
+        and immersive gameplay mechanics that will keep players engaged for hours.
+        <br>
+        <br>
+        In the story, he travels to the western regions of Asia to collect sacred texts. <br>
+        To accomplish his task, the monk is accompanied by three disciples <br>
+        on his journey who must protect him: Zhu Bajie, Sha Wujing, and Sun Wukong. <br>
+        The latter is the most well-known character in popular media.
+      </span>
+    </div><br>
+  </div>
+
+    <div class="container-trailer">
+      <iframe id="trailer" src="https://www.youtube.com/embed/Cr5rQ1NZ0Tw?si=H_EBPVxSR1OGLGC8"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
