@@ -24,3 +24,33 @@ header a {
     color: white;
 }
 
+textarea {
+    width: 40%;
+    min-height: 50px;
+    max-height: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none; /* Voorkomt dat je het handmatig vergroot */
+    background-color: #333; /* Dark background for the textarea */
+    color: white; /* White text in the textarea */
+    border: 1px solid #555; /* Light border for contrast */
+    border-radius: 5px; /* Rounded corners */
+    border-color: darkred;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #111; /* Dark background for the button */
+    color: white; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    border-color: darkred;
+ 
+}
+
+button:hover {
+    background-color: darkred; /* Lighter shade on hover */
+}
