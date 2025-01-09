@@ -20,7 +20,33 @@ header {
 
 header a {
     margin: 0 15px;
-    text-decoration: none;
     color: white;
 }
 
+textarea {
+    width: 40%;
+    height: 10%;
+    padding: 10px;
+    background-color: #505050;
+    color: white;
+    border: 3px solid #555;
+    border-radius: 5px;
+    border-color: darkred;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #111; /* Dark background for the button */
+    color: white; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    border-color: darkred;
+ 
+}
+
+button:hover {
+    background-color: darkred; /* Lighter shade on hover */
+}
