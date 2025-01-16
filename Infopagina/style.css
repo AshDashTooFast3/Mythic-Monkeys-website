@@ -27,8 +27,9 @@ body {
   .container-text {
     position: absolute;
     left: 15%;
-    height: 100vh;
+    height: auto;
     width: 70%;
-    padding: 0px; 
+    padding: 2%; 
     color: white;
+    border: red 1px solid;
   }
