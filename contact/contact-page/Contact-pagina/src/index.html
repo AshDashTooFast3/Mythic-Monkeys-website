@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a class="active" href="#buy"> <span style="color: rgb(180, 0, 60);">BUY</span> Black Myth: Wukong</a>
+        <a href="../Home-pagina/index.html">Home</a>
+        <a href="#reviews">reviews</a>
+        <a href="#learn-more">Learn More</a>
+        <a href="#contact">contact</a>
+    </header>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p style="color: white;">Contact us at: <a href="mailto:mythicalmonkeys@outlook.com" style="color: #FF6347;">mythicalmonkeys@outlook.com</a></p>
+        <p style="color: white;">Call us at: 0908-076-8156</p>
+        <p style="color: white;">Or use this form:</p>
+        <form id="contact-form">
+            <label for="name" style="color: white;">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email" style="color: white;">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="question" style="color: white;">Question:</label>
+            <textarea id="question" name="question" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
