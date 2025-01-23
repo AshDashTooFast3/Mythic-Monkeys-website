@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(17, 17, 17) !important;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    border-bottom: 1px solid rgb(180, 0, 60);
+    margin-bottom: 50px;
+}
+
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #000; /* Black background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #FF6347; /* Thinner light red border */
+    position: relative; /* Ensure the container is the positioning context */
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+label {
+    color: #fff; /* White text color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%; /* Reduced width for input fields */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FF6347; /* Light red border to match the form */
+    border-radius: 4px;
+    background-color: #333; /* Dark background for input fields */
+    color: #fff; /* White text color for input fields */
+}
+
+button,
+input[type="submit"] {
+    background-color: #8B0000; /* Dark red background for the button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px; /* Add margin to buttons */
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #FF6347; /* Light red background on hover */
+}
+
+#backButton {
+    position: absolute;
+    top: 10px;
+    left: 10px;  
+}
