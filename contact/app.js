@@ -48,3 +48,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return true;
     }
 });
+
+document.getElementById('dataForm').addEventListener('submit', function(event) {
+    event.preventDefault(); 
+
+    const isSuccess = Math.random() > 0.5; 
+
+    if (isSuccess) {
+        alert('De gegevens zijn succesvol doorgestuurd');
+    } else {
+        alert('De gegevens zijn onsuccesvol doorgestuurd, probeer het opnieuw');
+    }
+});
+
