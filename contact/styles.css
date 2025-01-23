@@ -2,7 +2,8 @@ body {
     background-color: rgb(17, 17, 17) !important;
 }
 
-header {
+  header {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     font-size: 1.5em;
@@ -24,14 +25,17 @@ header a {
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
-    background: #000; /* Black background for the form */
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #FF6347; /* Thinner light red border */
-    position: relative; /* Ensure the container is the positioning context */
+    position: relative;
+    left: 15%;
 }
 
 h1 {
