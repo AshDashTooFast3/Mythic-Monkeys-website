@@ -11,6 +11,7 @@ document.getElementById('downloadButton').addEventListener('click', function() {
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+            alert('Image has been downloaded successfully!');
         })
         .catch(error => {
             console.error('Error downloading image:', error);
