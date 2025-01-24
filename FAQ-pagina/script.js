@@ -15,6 +15,6 @@ document.getElementById('downloadButton').addEventListener('click', function() {
         })
         .catch(error => {
             console.error('Error downloading image:', error);
-            alert('Failed to download image.');
+            alert('Failed to download image, try again');
         });
 });
